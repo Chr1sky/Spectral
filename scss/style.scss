@@ -493,7 +493,7 @@ main {
 
 
             &-text {
-                width: 50%;
+
 
                 &-icons {
                     display: flex;
@@ -529,12 +529,27 @@ main {
             justify-content: space-between;
             background-color: #2b343d;
             height: 40vh;
+
+
+
+
+            h1 {
+                padding: 0;
+                margin: 0;
+                font-size: em;
+            }
         }
 
         &-box {
             display: flex;
             flex-direction: row;
             width: 100%;
+            padding: 0;
+
+            h1 {
+                font-size: 0.5em;
+                padding: 0;
+            }
 
             &--right {
                 display: flex;
@@ -553,8 +568,8 @@ main {
 
             &-text {
                 text-align: left;
-                padding: 3em 1em;
-
+                padding: 0.5em 1em;
+                z-index: 1;
 
                 h2 {
                     text-transform: uppercase;
