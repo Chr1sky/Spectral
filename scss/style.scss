@@ -111,9 +111,7 @@ main {
         z-index: 2;
         transition: box-shadow 0.3s;
 
-        &:hover {
-            box-shadow: inset 0.2em 0.2em #5a1d12;
-        }
+
     }
 
     hr {
@@ -359,9 +357,7 @@ main {
                 z-index: 2;
                 transition: box-shadow .3s;
 
-                &:hover {
-                    box-shadow: inset 0.2em 0.2em #5a1d12;
-                }
+
 
                 &--new {
                     background: none;
@@ -425,7 +421,7 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: #2b343d;
-    height: 41vh;
+    height: 25vh;
     padding: 2em;
 
     &-box {
@@ -444,7 +440,8 @@ main {
         }
 
         &-imgs {
-            padding: 2em;
+            padding: 3em;
+            margin: 0 auto;
 
             &-img {
                 width: 2.5em;
@@ -567,8 +564,8 @@ main {
             }
 
             &-text {
-                text-align: left;
-
+                padding-top: 10vh;
+                margin-top: auto;
                 z-index: 1;
 
                 h2 {
@@ -635,7 +632,7 @@ main {
 
             &-text {
                 text-align: left;
-                padding: 7em 1em;
+                padding: 132m 1em;
 
 
 
