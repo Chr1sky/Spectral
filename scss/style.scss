@@ -557,7 +557,7 @@ main {
             }
 
             &-img {
-                width: 50vh;
+                width: 40vh;
 
                 &--right {
                     display: flex;
@@ -568,7 +568,7 @@ main {
 
             &-text {
                 text-align: left;
-                padding: 0.5em 1em;
+
                 z-index: 1;
 
                 h2 {
@@ -617,6 +617,7 @@ main {
             flex-direction: row;
             width: 100%;
 
+
             &--right {
                 display: flex;
                 flex-direction: row-reverse;
@@ -634,7 +635,8 @@ main {
 
             &-text {
                 text-align: left;
-                padding: 3em 1em;
+                padding: 7em 1em;
+
 
 
                 h2 {
@@ -827,7 +829,7 @@ main {
 
             &-text {
                 width: 100%;
-                padding: 3em 1em;
+                padding: 10em 1em;
 
 
                 h2 {
