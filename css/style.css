@@ -91,7 +91,7 @@ main {
   text-transform: uppercase;
   cursor: pointer;
   z-index: 2;
-  transition: box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 .hero-img hr {
   margin: 0 auto;
@@ -116,6 +116,14 @@ main {
   cursor: pointer;
   z-index: 2;
   transition: background-color 0.3s;
+}
+
+.section-hero-img-box__button:hover {
+  transform: scale(1.2);
+}
+
+.hero-img__button:hover {
+  transform: scale(1.2);
 }
 
 .section {
@@ -281,12 +289,12 @@ main {
   text-transform: uppercase;
   cursor: pointer;
   z-index: 2;
-  transition: box-shadow 0.3s;
+  transition: 0.3s;
 }
 .section-hero-img-box__button--new {
   background: none;
   border: 1px solid white;
-  transition: box-shadow 0.3s, background-color 0.3s, color 0.3s;
+  transition: 0.3s;
 }
 .section-hero-img-box__button--new:hover {
   box-shadow: none;
