@@ -106,8 +106,10 @@ main {
 }
 .hero-img-more-btn {
   border: 1px solid #5ac8fb;
-  padding: 3em;
+  padding: 1em;
   background: none;
+  height: 50px;
+  width: 50px;
   color: white;
   border-radius: 50px;
   font-weight: 700;
