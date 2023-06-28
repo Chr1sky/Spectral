@@ -108,10 +108,8 @@ main {
   border: 1px solid #5ac8fb;
   padding: 1em;
   background: none;
-  height: 50px;
-  width: 50px;
   color: white;
-  border-radius: 50px;
+  border-radius: 4px;
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -335,7 +333,6 @@ main {
   align-items: center;
   flex-direction: column;
   background-color: #2b343d;
-  height: 25vh;
   padding: 2em;
 }
 .footer-box {
@@ -353,6 +350,7 @@ main {
 .footer-box-imgs {
   padding: 3em;
   margin: 0 auto;
+  text-align: center;
 }
 .footer-box-imgs-img {
   width: 2.5em;

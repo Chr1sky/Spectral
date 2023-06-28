@@ -429,7 +429,6 @@ main {
     align-items: center;
     flex-direction: column;
     background-color: #2b343d;
-    height: 25vh;
     padding: 2em;
 
     &-box {
@@ -452,6 +451,7 @@ main {
         &-imgs {
             padding: 3em;
             margin: 0 auto;
+            text-align: center;
 
             &-img {
                 width: 2.5em;
